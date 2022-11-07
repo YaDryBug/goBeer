@@ -1,0 +1,45 @@
+baseUrl: /
+languageCode: en-us
+theme: terminal
+paginate: 100
+
+params:
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: recipes
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor: green
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 3
+  # show selector to switch language
+  showLanguageSelector: false
+  # set theme to full screen width
+  fullWidthTheme: false
+  # center theme with default width
+  centerTheme: true
+
+languages:
+  en:
+    languageName: English
+    title: goBeer
+    subtitle: Generating beer recipes
+    keywords: ''
+    menuMore: Show more
+    readMore: Read more
+    readOtherPosts: Read other posts
+
+    params:
+      logo:
+        logoText: goBeer
+        logoHomeLink: /styles
+
+#    menu:
+#       main:
+#       - identifier: styles
+#         name: 1. styles
+#         url: /styles
+#       - identifier: recipes
+#         name: 2. recipes
+#         url: /recipes
+#       - identifier: generator
+#         name: 3. generator
+#         url: /generator
